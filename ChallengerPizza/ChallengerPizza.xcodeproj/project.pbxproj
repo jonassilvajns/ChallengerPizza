@@ -16,6 +16,7 @@
 		B69C3F7B28DBFCE400F8742C /* ChallengerPizzaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69C3F7A28DBFCE400F8742C /* ChallengerPizzaUITestsLaunchTests.swift */; };
 		B69C3F8F28DBFF6800F8742C /* LoginVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69C3F8E28DBFF6800F8742C /* LoginVIewController.swift */; };
 		B69C3F9128DC01F500F8742C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69C3F9028DC01F500F8742C /* LoginView.swift */; };
+		B69C3F9628DC097700F8742C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69C3F9528DC097700F8742C /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B69C3F7A28DBFCE400F8742C /* ChallengerPizzaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengerPizzaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B69C3F8E28DBFF6800F8742C /* LoginVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVIewController.swift; sourceTree = "<group>"; };
 		B69C3F9028DC01F500F8742C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B69C3F9528DC097700F8742C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		B69C3F8928DBFE2A00F8742C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B69C3F9328DC093500F8742C /* Navigation */,
 				B69C3F8B28DBFF1800F8742C /* Login */,
 			);
 			path = Sources;
@@ -171,6 +174,22 @@
 			isa = PBXGroup;
 			children = (
 				B69C3F8E28DBFF6800F8742C /* LoginVIewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B69C3F9328DC093500F8742C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B69C3F9428DC094900F8742C /* Controller */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B69C3F9428DC094900F8742C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B69C3F9528DC097700F8742C /* NavigationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -307,6 +326,7 @@
 			files = (
 				B69C3F8F28DBFF6800F8742C /* LoginVIewController.swift in Sources */,
 				B69C3F5828DBFCDF00F8742C /* AppDelegate.swift in Sources */,
+				B69C3F9628DC097700F8742C /* NavigationController.swift in Sources */,
 				B69C3F9128DC01F500F8742C /* LoginView.swift in Sources */,
 				B69C3F5A28DBFCDF00F8742C /* SceneDelegate.swift in Sources */,
 			);
@@ -482,7 +502,7 @@
 				INFOPLIST_FILE = ChallengerPizza/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -510,7 +530,7 @@
 				INFOPLIST_FILE = ChallengerPizza/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
